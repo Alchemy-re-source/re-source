@@ -1,7 +1,7 @@
 import { displayResults } from '../results/results.js';
 import findById from '../common/utils.js';
 
-export function addUserFavorites(resourceId){
+export function addUserFavorites(resourceId) {
     let favoritesArray = JSON.parse(localStorage.getItem('favoritesArray') || '[]');
 
     const favorited = findById(displayResults, resourceId);
@@ -11,7 +11,7 @@ export function addUserFavorites(resourceId){
     } else {
         return;
     }
-    
+
     const json = JSON.stringify(favoritesArray);
     localStorage.setItem('favoritesArray', json);
 }
