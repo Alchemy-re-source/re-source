@@ -1,4 +1,5 @@
 function findById(array, id) {
+    // this will eventually be a .find array method
     for (let index = 0; index < array.length; index++) {
         const item = array[index];
         if (item.id === id) {

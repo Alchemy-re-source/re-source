@@ -1,5 +1,6 @@
 import { renderFavorites } from './render-favorites.js';
 
+// nice use of the || fallback!
 let favoritesArray = JSON.parse(localStorage.getItem('favoritesArray') || '[]');
 
 const grabbed = document.getElementById('favorites-list');
