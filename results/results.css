@@ -6,7 +6,7 @@ main {
 
 #header-inputs {
     position: fixed;
-    margin-left: 15px;
+    left: 10px;
     top: 60px;
     width: 100%;
     background-color: white;
@@ -35,9 +35,17 @@ a {
     font-family: 'Oswald', sans-serif;
 }
 
-/* form {
-    padding-bottom: 10%;
-} */
+.hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+.hamburger {
+    margin-right: 10px;
+}
+
 
 #resource-list {
     display: flex;
@@ -104,6 +112,8 @@ ul img {
     height: 25px;
     width: 25px;
     padding-top: 2px;
+    border-radius: 100px;
+    margin-right: 5px;
 }
 
 .new-link {

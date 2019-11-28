@@ -21,6 +21,10 @@ img.info {
     height: 35px
 }
 
+.info-button {
+    margin-right: 5px;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     letter-spacing: -2px;
@@ -31,7 +35,6 @@ h1 {
 img.logo {
     height: 40px;
     width: 40px;
-    opacity: 0.7;
 }
 
 footer {

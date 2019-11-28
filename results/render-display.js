@@ -91,19 +91,19 @@ export function renderDisplayPage(resource) {
 
         if (resource.filter.includes('lgbt')) {
             const imgLgbt = document.createElement('img');               
-            imgLgbt.src = '../assets/rainbow.png';             
+            imgLgbt.src = '../assets/rainbow-icon.png';             
             resourceListItem.appendChild(imgLgbt);
         } if (resource.filter.includes('onlyMen')){
             const imgMen = document.createElement('img');               
-            imgMen.src = '../assets/menIcon.png';             
+            imgMen.src = '../assets/men-icon.png';             
             resourceListItem.appendChild(imgMen);
         } if (resource.filter.includes('onlyWomen')){
             const imgWomen = document.createElement('img');               
-            imgWomen.src = '../assets/womenIcon.png';             
+            imgWomen.src = '../assets/women-icon.png';             
             resourceListItem.appendChild(imgWomen);
         } if (resource.filter.includes('religious')){
             const imgReligious = document.createElement('img');               
-            imgReligious.src = '../assets/cross.png';             
+            imgReligious.src = '../assets/cross-icon.png';             
             resourceListItem.appendChild(imgReligious);
         } 
     }
