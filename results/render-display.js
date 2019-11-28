@@ -58,8 +58,13 @@ export function renderDisplayPage(resource) {
 
     const resourcePhone = document.createElement('p');
     resourcePhone.classList = 'phone';
-    resourcePhone.textContent = '📞: ' + resource.phone;
+    resourcePhone.textContent = resource.phone;
     contactDiv.appendChild(resourcePhone);
+
+    const resourceAddress = document.createElement('p');
+    resourceAddress.classList = 'address';
+    resourceAddress.textContent = resource.address;
+    contactDiv.appendChild(resourceAddress);
 
     const resourceDescription = document.createElement('p');
     resourceDescription.classList = 'description';
@@ -68,7 +73,7 @@ export function renderDisplayPage(resource) {
     
     const resourceHours = document.createElement('p');
     resourceHours.classList = 'hours';
-    resourceHours.textContent = '🕔: ' + resource.hours;
+    resourceHours.textContent = 'Hours: ' + resource.hours;
     resourceListItem.appendChild(resourceHours);
 
     const directionsDiv = document.createElement('div');
@@ -77,13 +82,10 @@ export function renderDisplayPage(resource) {
 
     const resourceTransit = document.createElement('p');
     resourceTransit.classList = 'transit';
-    resourceTransit.textContent = '🚍: ' + resource.transit;
+    resourceTransit.textContent = resource.transit;
     directionsDiv.appendChild(resourceTransit);
 
-    const resourceAddress = document.createElement('p');
-    resourceAddress.classList = 'address';
-    resourceAddress.textContent = '📮:' + resource.address;
-    directionsDiv.appendChild(resourceAddress);
+    
     
     if (resource && resource.filter) {
 

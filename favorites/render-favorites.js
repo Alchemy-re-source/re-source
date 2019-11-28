@@ -20,12 +20,12 @@ export function renderFavorites(favorite) {
 
     const favoritePhone = document.createElement('p');
     favoritePhone.classList = 'phone';
-    favoritePhone.textContent = '📞: ' + favorite.phone;
+    favoritePhone.textContent = favorite.phone;
     favoritesListItem.appendChild(favoritePhone);
 
     const favoriteHours = document.createElement('p');
     favoriteHours.classList = 'hours';
-    favoriteHours.textContent = '🕒: ' + favorite.hours;
+    favoriteHours.textContent = 'Hours: ' + favorite.hours;
     favoritesListItem.appendChild(favoriteHours);
 
     return favoritesListItem;
