@@ -1,5 +1,4 @@
 import { renderDisplayPage } from '../results/render-display.js';
-import { addUserFavorites } from '../results/makeFavesArray.js';
 import resourcesArray from '../data/api.js';
 import { getResults, saveResults } from '../common/utils.js';
 
@@ -32,15 +31,6 @@ checkBoxes.forEach(checkBox => {
     });
 });
 
-const submitButton = document.getElementById('submit-favorites-button');
-
-submitButton.addEventListener('click', () => {
-    const nodeListOfCheckBoxes = document.querySelectorAll('#resource-list input:checked');
-    for (let i = 0; i < nodeListOfCheckBoxes.length; i++)
-    { addUserFavorites(nodeListOfCheckBoxes[i].value);
-    }
-});
-
 const nodeListOfButtons = document.querySelectorAll('input[name=resource]');
 
 let harrayForResults = [];
@@ -58,5 +48,6 @@ nodeListOfButtons.forEach((buttonValue) => {
         resultsDisplayer(harrayForResults);
     });
 });
+
 
 export { resultsDisplayer };

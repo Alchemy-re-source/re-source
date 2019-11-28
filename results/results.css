@@ -3,32 +3,6 @@ main {
     font-size: 16px;
 }
 
-img.logo {
-    width: 50px;
-    height: 50px;
-
-}
-
-header{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    width: 90%;
-    max-height: 20px;
-    border-radius: 5%;
-    background-color: white;
-    background-clip: text;
-    font-size: 120%;
-    font-family: 'Roboto', sans-serif;
-}
-
-
-h1 {
-    font-size: 150%;
-    padding-top: 0px;
-    margin-bottom: 10px;
-}
-
 #neighborhood-buttons {
     padding-bottom: 10px;
     padding-top: 5px;

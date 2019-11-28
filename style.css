@@ -10,11 +10,3 @@ body {
     justify-content: center;
     align-items: center;
 }
-
-h1 {
-    margin-left: 1%;
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: -2px;
-    word-spacing: -1px;
-    font-variant: small-caps;
-}
