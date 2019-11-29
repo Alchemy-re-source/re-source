@@ -137,8 +137,20 @@ img.logo {
     padding: 10px;
 }
 
-.services input:focus + div {
-    color: tomato;
+.services input[type="radio"]:checked + label {
+    color: red;
+}
+
+.services input[type="radio"]:focus + label {
+    color: red;
+}
+
+.services label:hover {
+    color: red;
+}
+
+.services label:active {
+    color: red;
 }
 
 footer {

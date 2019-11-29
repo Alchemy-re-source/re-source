@@ -16,7 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 75%;
-    height: 75%;
+    height: 80%;
     object-fit:scale-down;
     justify-content: space-around;
     margin: auto;
@@ -54,8 +54,23 @@ label {
     max-height: 100px;
 }
 
-@media only screen and (min-width: 650px) {
+/*Smart phones landscape*/
+
+
+
+/* Tablets */
+@media (min-width: 350px) {
+    
+}
+
+/* Desktop */
+
+@media (min-width: 960px) {
+
+}
+
+/* @media only screen and (min-width: 650px) {
     main {
         width: 100%;
     }
-}
+} */
