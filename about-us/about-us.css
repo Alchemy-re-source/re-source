@@ -16,7 +16,6 @@ h2 {
 }
 
 #containerRCR {
-    border: solid 2px slategray;
     max-height: 1050px;
     max-width: 200px;
     padding: 20px;
@@ -39,5 +38,23 @@ h2 {
 }
 
 .name-bold {
-    font-size: 2em;
+    font-size: 1.5em;
 } 
+
+@media (min-width: 600px) {
+    
+    .people {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .people .container {
+        height: 200px;
+    }
+
+    #containerRCR {
+        max-width: 500px;
+        border: none;
+    }
+}

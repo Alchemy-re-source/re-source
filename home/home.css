@@ -59,7 +59,8 @@ label {
 
 
 /* Tablets */
-@media (min-width: 350px) {
+@media (min-width: 400px) {
+    
     
 }
 
@@ -67,10 +68,9 @@ label {
 
 @media (min-width: 960px) {
 
-}
-
-/* @media only screen and (min-width: 650px) {
-    main {
-        width: 100%;
+    .resource-section {
+        flex-direction: row;
+        flex-wrap: wrap;
+        
     }
-} */
+}

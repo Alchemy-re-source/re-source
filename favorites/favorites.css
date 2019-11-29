@@ -52,3 +52,20 @@ li p {
    letter-spacing: 2px;
    line-height: 20px;
 }
+
+/* @media (min-width: 500px) {
+    
+    .title {
+        text-align: right;
+        z-index: 2;
+        margin-right: 10px;
+        font-size: 25px;
+        margin-bottom: 0px;
+        font-family: 'Roboto-condensed', sans-serif;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 960px) {
+    
+} */

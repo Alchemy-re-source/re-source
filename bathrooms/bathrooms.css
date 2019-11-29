@@ -5,6 +5,26 @@ footer {
 iframe {
     margin-top: 20%;
     margin-bottom: 20%;
+    height: 600vh;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    iframe {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        height: 100%;
+        width: 60%;
+    }
+}
+
+@media (min-width: 960px) {
+    iframe {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        height: 150%;
+        width: 80%;
+    }
 }
 
 .nav:hover {
