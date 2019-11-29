@@ -42,7 +42,6 @@ export function renderDisplayPage(resource) {
 
     resourceCheckBox.addEventListener('change', (event) => {
         addUserFavorites(event.target.value);
-        console.log(event.target.value);
     });
 
     headingDiv.appendChild(resourceCheckBox);
