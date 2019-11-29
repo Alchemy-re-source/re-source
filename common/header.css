@@ -132,6 +132,15 @@ img.logo {
     transform: none;
 }
 
+.services {
+    font-size: 17px;
+    padding: 10px;
+}
+
+.services input:focus + div {
+    color: tomato;
+}
+
 footer {
     position: fixed;
     display: flex;
@@ -140,21 +149,18 @@ footer {
     margin-top: 5%;
     background-color: #c7d0d8;
     width: 100%;
-    bottom: .5%;
+    bottom: 0%;
     max-height: 10%;
     padding: 2%;
 }
 
 .nav {
-    flex-direction: row;
-    justify-content: center;
     max-height: 50px;
-    
 }
 
 img.nav {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-radius: 100px;
 }
 

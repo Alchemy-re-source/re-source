@@ -1,10 +1,10 @@
 body {
     height: 100%;
-    /* margin: 5%; */
 }
 
 main {
     overflow-y: scroll;
+    margin-bottom: 20px;
 }
 
 li {
